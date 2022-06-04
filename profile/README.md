@@ -1,5 +1,5 @@
 # AppKu&trade;
-*AppKu* is a application development framework that allows developers to focus on their creativity and purpose by providing a suite of holistic, yet standalone, packages that help reduce the burden of implementing features commonly found in enterprise, full-stack, applications.
+*AppKu* is an application development framework that allows developers to focus on their creativity and purpose by providing a suite of holistic, yet standalone, packages that help reduce the burden of implementing features commonly found in enterprise, full-stack, applications.
 
 Specifically, *AppKu* provides tooling to easily manage &amp; serve:
 
