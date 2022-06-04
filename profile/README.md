@@ -1,4 +1,3 @@
-![AppKu](https://avatars.githubusercontent.com/u/76977527?s=400)
 # AppKu&trade;
 *AppKu* is a application development framework that allows developers to focus on their creativity and the purpose of what they are building by providing a suite of holistic, yet standalone, packages that make the nitty-gritty of application building nearly robotic.
 
@@ -21,6 +20,8 @@ Development is continuing on these pacakges, but they are ready to be leveraged 
 - [@appku/stashku-sql](https://github.com/appku/stashku-sql): [*Documentation coming soon*]
 - [@appku/stashku-log](https://github.com/appku/stashku-log): [[Documentation](https://appku.github.io/stashku-log)]
 
+## Planned Official Packages
+![](https://lucid.app/publicSegments/view/9b97c61a-b7f3-447c-8f1d-74681789e50b/image.jpeg)
 
 ## Development Goals
 1) Maximize cross-environmental support for browser &amp; Node.JS.
@@ -30,3 +31,10 @@ Development is continuing on these pacakges, but they are ready to be leveraged 
 ## Contributing
 If you'd like to contribute, please feel free to do so. There are no restrictions who can contribute, just be professional.
 If you are contributing code, be sure to follow our exisiting code style and naming convention. Don't forget to write Jest unit tests.
+
+## Support
+AppKu&trade; is supported by open-source contributors and by the following organizations.
+
+**Thank you!** to all that contribute!
+
+- [Append](https://append.media)
