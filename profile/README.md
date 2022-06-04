@@ -28,8 +28,9 @@ Development is continuing on these pacakges, but they are ready to be leveraged 
 2) Minimize external package dependency as much as possible.
 3) Unit test everything. 100% coverage on all @appku packages.
 4) Follow the K.I.S.S. principal.
-5) Prefer method chaining for key functionality.
-6) Don't interfere with other frameworks (React, Vue, etc.), support them by being as vanilla-js as possible.
+5) Prefer object-oriented (classes), not functional.
+6) Prefer method chaining for key functionality.
+7) Don't interfere with other frameworks (React, Vue, etc.), support them by being as vanilla-js as possible.
 
 ## Contributing
 If you'd like to contribute, please feel free to do so. There are no restrictions who can contribute, just be professional.
