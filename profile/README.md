@@ -4,12 +4,9 @@
 Specifically, *AppKu* provides tooling to easily manage &amp; serve:
 
 - Full-stack communication (front-end to back-end to storage). <small>*via [@appku/stashku](https://github.com/appku/stashku); "Stash" Ku, 区*</small>
-- Serving up API enpoints and providing out-of-the-box HTTP middleware. <small>*via [@appku/*-mizu](https://github.com/orgs/appku/repositories?q=mizu); Mizu, 水*</small>
-- Managing authentication and authorization. <small>*via @appku/nankinjo; Nankinjō, 南京錠*</small>
 - Utility functions that are cross-environmentally supported: browser &amp; Node.JS. <small>*via [@appku/shea](https://github.com/appku/shea); Shea, シェア*</small>
 - File & directory reading/writing with TOML/YAML/JSON/raw data. <small>*via [@appku/fairu](https://github.com/appku/fairu); Fairu, ファイル*</small>
 - Rendering of HTML templates to PDF. <small>*via [@appku/origami](https://github.com/appku/origami); Origami, 折り紙*</small>
-- Deployments. <small>*via @appku/shuriken; Shuriken, 手裏剣*</small>
 
 This framework as a whole is still in the early stages of development, however, the following suites &amp; packages are ready for production-use. 
 
