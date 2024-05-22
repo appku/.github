@@ -1,2 +1,2 @@
-# .github
-The AppKu™ organization public repository.
+# Welcome to AppKu™
+This the official AppKu™ organization repository.
