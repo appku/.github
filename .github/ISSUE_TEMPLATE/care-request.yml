@@ -1,0 +1,88 @@
+name: "♡ Care Request - Help/Support/Questions"
+description: "Have a question, experiencing a problem, or just unsure where to turn? Let our team try to help."
+title: "Requesting help..."
+labels: "triage, ♡ care"
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # We are Here to Help.
+        This form can be filled out to have your AppKu™ team...
+        - Triage, investigate, and resolve problems with your digital process (app).
+        - Answer questions.
+        - Help create documentation, including designs and concepts.
+        - ...and in general, help out!
+
+        *If you are trying to add an :bulb: Idea instead, [click here](./new/choose).*
+
+        > [!NOTE]
+        > If you are experiencing an issue with your digital process (app), please gather as much detail as you can
+        > about the issue, as requested below, it can help drastically improve resolution time.
+
+        > [!TIP] 
+        > If this is in regards to an *existing and open* Behavior or ♡ Care request, you should use that issue and add comments instead of submitting a new ♡ Care request.
+        > 
+        > Please be sure to search the [issues list](./) before submitting a new ♡ Care request.
+  - type: dropdown
+    attributes:
+      label: ♡ Care Request Type
+      description: What is the nature of your request?
+      multiple: false
+      options:
+        - Experiencing problems.
+        - Need questions answered.
+        - Need documentation.
+        - Would like to collaborate.
+        - Need help with something else.
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: "Communication & Considerations"
+      description: Any special considerations for communication about this issue?
+      multiple: false
+      options:
+        - "None: Use regular communication channels and proceed immediately."
+        - "Discussion Hold: I would like to discuss this issue before any work begins."
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Who does this affect?
+      multiple: false
+      options:
+        - "Just me."
+        - "Specific groups of users."
+        - "All users."
+      default: 0
+    validations:
+      required: true
+  - type: checkboxes
+    id: environments
+    attributes:
+      label: In which environment(s) are you experiencing the problem?
+      description: If you're unsure please skip this selection.
+      options:
+        - label: Production ("Live")
+        - label: Review
+        - label: Staging (AppKu Internal)
+  - type: textarea
+    attributes:
+      label: Subject of your Request
+      description: "Describe the details of your request."
+      value:
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        > [!IMPORTANT]
+        > If you are experiencing a problem, please include the following details (when applicable):
+        > 1. The URL in your browser where the problem occurred.    
+        > 2. The browser and browser version you are using. [CTRL+click here to find it.](https://www.whatismybrowser.com/)    
+        > 3. Attach relevant screenshots of the problem.
+        > 4. A description of what you were doing just before the problem occurred.
+        > 5. A description of your expected result.

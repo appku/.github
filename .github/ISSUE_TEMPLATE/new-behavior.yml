@@ -1,0 +1,38 @@
+name: "⚙ New Behavior"
+description: "Add a new behavior to this project."
+title: "[Actor]: [Action]"
+labels: "triage, ⚙ behavior"
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # :gear: Welcome!
+        This form can be filled out to add a new Behavior to the project.    
+        *If you are trying to add an :bulb: Idea instead, [click here](./new/choose).*
+
+        > [!WARNING]
+        > **We recommend letting the AppKu™ team do this for you.**
+        >
+        > As part of our service to you, we'll draft, design, and prepare Behaviors and their definitions and present them to you for consideration within your project.
+
+        > [!IMPORTANT]
+        > The **title** of this issue must follow the format of: `[Actor]: [Action]`
+        >
+        > Where `[Actor]` is the type of user that can perform the action and get the result. Where `[Action]` is the description of the action the Actor(s) take in order to get a result.
+
+  - type: textarea
+    id: result
+    attributes:
+      label: What is the Result of the Actor's Action?
+      description: "Describe the Result of the Actor(s) performing the Action:"
+      placeholder: The...
+      value: 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: Is there any addition context that should be included about this behavior?
+      placeholder: Calculations, samples, considerations, data sources, etc.
+      value:

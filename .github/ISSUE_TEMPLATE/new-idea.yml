@@ -1,0 +1,56 @@
+name: "\U0001F7BB New Idea"
+description: "Suggest an idea for this project."
+title: "[Idea]: "
+labels: "triage, ⚙ behavior"
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # :bulb: Welcome!
+        If you're here, you must have ideas to help your team and organization craft a modern, secure, streamlined, and 
+        sustainable digital process (app) within your organization - this questionnaire will help our team with understanding 
+        your idea.
+
+        Together we'll collaborate and make your ideal process come to life - with your rules, your brand, and made for 
+        your team. After all - *AppKu™ means apps made your way™.*
+  - type: textarea
+    id: idea-description
+    attributes:
+      label: What's the idea?
+      description: Can you summarize, in a few sentences, what your idea would do?
+      placeholder: Tell us about your idea!
+      value: 
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        > [!TIP]
+        > Aim to describe how it *should be*, and how *you would like it to be*.
+
+        > [!TIP]
+        > Try to avoid using acronyms - we don't know your terminology as well as you do. Including definitions to specialized terms and acronyms is very helpful!
+  - type: input
+    id: idea-actors
+    attributes:
+      label: What users will perform this functionality?
+      description: What types of users (Administrators, readers, etc.) would be able to perform the functionality described in your idea?
+      value: 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Your current situation: 3+ Frustrations"
+      description: Can you list 3 or more things you or your team find frustrating in your existing implementation or situation?
+      value: |
+        1. 
+        2. 
+        3. 
+  - type: textarea
+    id: smile
+    attributes:
+      label: What will make it extra-awesome?
+      description: Is there anything that we could bake into the solution that would make you smile and your team extra excited about it?
+      placeholder: You can make us smile by...
+      value: 
