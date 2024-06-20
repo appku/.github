@@ -60,15 +60,16 @@ body:
       default: 0
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: environments
     attributes:
       label: In which environment(s) are you experiencing the problem?
       description: If you're unsure please skip this selection.
+      multiple: true
       options:
-        - label: Production ("Live")
-        - label: Review
-        - label: Staging (AppKu Internal)
+        - Production ("Live")
+        - Review
+        - Staging (AppKu Internal)
   - type: textarea
     attributes:
       label: Subject of your Request
