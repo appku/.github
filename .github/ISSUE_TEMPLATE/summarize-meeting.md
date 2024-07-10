@@ -12,7 +12,9 @@ assignees: ''
 - 
 - 
 
-### Summary
+## Agenda
+
+## Summary
 [e.g. Matters were discussed about...]
 
 ### Actions
