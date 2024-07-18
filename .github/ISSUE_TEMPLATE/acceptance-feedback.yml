@@ -10,8 +10,8 @@ body:
         # What is Acceptance Feedback?
         Acceptance feedback is feedback that represents your thoughts around a specific behavior you are reviewing.
         This feedback can represent either:
-        1. New :bulb: Ideas 
-        2. *or* A :cyclone: Problem.
+        1. :bulb: New ideas 
+        2. *or* A problem.
         3. *or* Both or Unsure
 
         For choice (1.) your ideas will be reviewed and each will be drafted into formal :bulb: Ideas for 
@@ -26,8 +26,8 @@ body:
       label: Feedback Representing...
       multiple: false
       options:
-        - "New :bulb: Ideas"
-        - "A :cyclone: Problem"
+        - "New Ideas"
+        - "A Problem"
         - Both or Unsure
       default: 0
     validations:
