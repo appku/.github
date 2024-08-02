@@ -23,7 +23,7 @@ body:
         > Where `[Action]` is the *description of the action the Actor(s) take in order to get a result*.
         
         # :gear: Welcome!
-        This form is filled out to add a new formal Behavior to the project Plan    
+        This form is filled out to add a new formal Behavior to the project Plan.    
   - type: textarea
     id: result
     attributes:
