@@ -80,7 +80,10 @@ body:
   - type: input
     attributes:
       label: Key Identifiers
-      description: "Please indicate key identifiers for any records associated with your request. This might be product #s, dates, seasons, etc. This detail, as much as you can provide, helps our team narrow down on the specifics of your request and resolve them faster."
+      description: |
+        Please indicate *key identifiers* for any records associated with your request. 
+        This could be user names, product numbers, dates, seasons, and etc.
+        This detail, as much as you can provide, helps our team narrow down on the specifics of your request and resolve them faster.
       value:
     validations:
       required: true
