@@ -16,12 +16,8 @@ body:
 
         *If you are trying to add an :bulb: Idea instead, [click here](./new/choose).*
 
-        > [!NOTE]
-        > If you are experiencing an issue with your digital process (app), please gather as much detail as you can
-        > about the issue, as requested below, it can help drastically improve resolution time.
-
         > [!TIP] 
-        > If this is in regards to an *existing and open* Behavior or ♡ Care request, you should use that issue and add comments instead of submitting a new ♡ Care request.
+        > If this is in regards to an *existing and open* request, you should use that issue and add comments instead of submitting a new ♡ Care request.
         > 
         > Please be sure to search the [issues list](./) before submitting a new ♡ Care request.
   - type: dropdown
@@ -72,8 +68,8 @@ body:
         - Staging (AppKu Internal)
   - type: textarea
     attributes:
-      label: Subject of your Request
-      description: "Describe the details of your request."
+      label: Details of your Request
+      description: "Describe the details of your request. See the :grey_exclamation: Important tip below."
     validations:
       required: true
   - type: markdown
