@@ -76,7 +76,7 @@ body:
         > If you are experiencing a problem, please include the following details (when applicable):
         > 1. The URL in your browser where the problem occurred.    
         > 2. The browser and browser version you are using. [CTRL+click here to find it.](https://www.whatismybrowser.com/)    
-        > 3. Attach relevant screenshots of the problem.
+        > 3. Attach relevant screenshots of the problem (these can be pasted or dragged into the input below when focused).
         > 4. A description of what you were doing just before the problem occurred.
         > 5. A description of your expected result.
     validations:
