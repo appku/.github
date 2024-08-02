@@ -81,7 +81,7 @@ body:
         > 5. Attach relevant screenshots of the problem (these can be pasted or dragged into the input below when focused).
       value: |
         - URL: [please enter the url(s) related to your request....]
-        - Browser: [please enter your browser and version (see tip above).]
+        - Browser: [please enter your browser and version (see tip above)...]
         
         #### I was doing this just before the problem occurred:
         [please describe...]
@@ -89,7 +89,7 @@ body:
         #### This is what I expected the result to be:
         [please describe...]
 
-        #### screenshots
+        #### Relevant Screenshots
         [please paste/drag/upload...]
 
     validations:
