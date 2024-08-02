@@ -1,5 +1,5 @@
 name: "♡ Care Request - Help/Support/Questions"
-description: "Have a question, experiencing a problem, or just unsure where to turn? Let our team try to help."
+description: "Have a question, experiencing a problem, providing feedback, or just unsure where to turn? Let our team try to help."
 title: "Requesting help..."
 labels: "triage, ♡ care"
 assignees: []
@@ -74,7 +74,6 @@ body:
     attributes:
       label: Subject of your Request
       description: "Describe the details of your request."
-      value:
     validations:
       required: true
   - type: markdown
@@ -92,8 +91,7 @@ body:
       label: Key Identifiers
       description: |
         Please indicate *key identifiers* for any records associated with your request.
-        This could be user names, product numbers, dates, seasons, etc.
-        This detail, as much as you can provide, helps our team narrow down on the specifics of your request and resolve them faster.
-      value:
-    validations:
-      required: true
+        This could be any relevant *user names*, *product numbers*, *dates*, *seasons*, etc.
+
+        This information helps your request get resolved quickly! 
+        *If you're unsure, or it's not relevant, just type `N/A`.*
