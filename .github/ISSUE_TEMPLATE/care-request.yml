@@ -51,6 +51,7 @@ body:
       multiple: false
       options:
         - "Just me."
+        - "Another user."
         - "Specific groups of users."
         - "All users."
       default: 0
