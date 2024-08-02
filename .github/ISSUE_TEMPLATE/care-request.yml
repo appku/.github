@@ -80,8 +80,8 @@ body:
         > 4. A description of what you expected the result to be. 
         > 5. Attach relevant screenshots of the problem (these can be pasted or dragged into the input below when focused).
       value: |
-        - URL: 
-        - Browser:
+        - URL: please enter the url(s) related to your request....
+        - Browser: plese enter your browser and version (see tip above).
         
         #### I was doing this just before the problem occurred:
         please describe...
