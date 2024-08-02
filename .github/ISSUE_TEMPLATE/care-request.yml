@@ -69,12 +69,9 @@ body:
   - type: textarea
     attributes:
       label: Details of your Request
-      description: "Describe the details of your request. See the :grey_exclamation: Important tip below."
-    validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: |
+      description: |
+        Please describe the details of your request.
+
         > [!IMPORTANT]
         > If you are experiencing a problem, please include the following details (when applicable):
         > 1. The URL in your browser where the problem occurred.    
@@ -82,6 +79,8 @@ body:
         > 3. Attach relevant screenshots of the problem.
         > 4. A description of what you were doing just before the problem occurred.
         > 5. A description of your expected result.
+    validations:
+      required: true
   - type: input
     attributes:
       label: Key Identifiers
