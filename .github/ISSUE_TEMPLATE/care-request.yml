@@ -75,10 +75,23 @@ body:
         > [!IMPORTANT]
         > If you are experiencing a problem, please include the following details (when applicable):
         > 1. The URL in your browser where the problem occurred.    
-        > 2. The browser and browser version you are using. [CTRL+click here to find it.](https://www.whatismybrowser.com/)    
-        > 3. Attach relevant screenshots of the problem (these can be pasted or dragged into the input below when focused).
-        > 4. A description of what you were doing just before the problem occurred.
-        > 5. A description of your expected result.
+        > 2. The browser and browser version you are using. [CTRL+click here to find it.](https://www.whatismybrowser.com/)   
+        > 3. A description of what you were doing just before the problem occurred.
+        > 4. A description of what you expected the result to be. 
+        > 5. Attach relevant screenshots of the problem (these can be pasted or dragged into the input below when focused).
+      value: |
+        - URL: 
+        - Browser:
+        
+        #### I was doing this just before the problem occurred:
+        please describe...
+
+        #### This is what I expected the result to be:
+        please describe...
+
+        #### screenshots
+        please paste/drag/upload...
+
     validations:
       required: true
   - type: input
@@ -86,7 +99,7 @@ body:
       label: Key Identifiers
       description: |
         Please indicate *key identifiers* for any records associated with your request.
-        This could be any relevant *user names*, *product numbers*, *dates*, *seasons*, etc.
+        This could be any relevant *user names*, *product numbers*, *dates*, *seasons*, *related requests*, etc. 
 
         This information helps your request get resolved quickly! 
         *If you're unsure, or it's not relevant, just type `N/A`.*
