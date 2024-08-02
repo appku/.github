@@ -77,16 +77,6 @@ body:
       value:
     validations:
       required: true
-  - type: input
-    attributes:
-      label: Key Identifiers
-      description: |
-        Please indicate *key identifiers* for any records associated with your request. 
-        This could be user names, product numbers, dates, seasons, and etc.
-        This detail, as much as you can provide, helps our team narrow down on the specifics of your request and resolve them faster.
-      value:
-    validations:
-      required: true
   - type: markdown
     attributes:
       value: |
@@ -97,3 +87,13 @@ body:
         > 3. Attach relevant screenshots of the problem.
         > 4. A description of what you were doing just before the problem occurred.
         > 5. A description of your expected result.
+  - type: input
+    attributes:
+      label: Key Identifiers
+      description: |
+        Please indicate *key identifiers* for any records associated with your request.
+        This could be user names, product numbers, dates, seasons, etc.
+        This detail, as much as you can provide, helps our team narrow down on the specifics of your request and resolve them faster.
+      value:
+    validations:
+      required: true
