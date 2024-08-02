@@ -7,20 +7,23 @@ body:
   - type: markdown
     attributes:
       value: |
-        # :gear: Welcome!
-        This form can be filled out to add a new Behavior to the project.    
-        *If you are trying to add an :bulb: Idea instead, [click here](./new/choose).*
-
         > [!WARNING]
-        > **We recommend letting the AppKu™ team do this for you.**
+        > **We recommend letting the AppKu™ team fill out this form for you.**
         >
-        > As part of our service to you, we'll draft, design, and prepare Behaviors and their definitions and present them to you for consideration within your project.
+        > As part of *our service to you*, we'll draft, design, and prepare Behaviors and their definitions.
+        > 
+        > You may be looking to create a new :bulb: Idea instead! [Click here and choose "🞻 New Idea"](./new/choose).*
+        > *or*
+        > Need help with something else? [Click here and choose "♡ Care Request - Help/Support/Questions"](./new/choose).*
 
         > [!IMPORTANT]
         > The **title** of this issue must follow the format of: `[Actor]: [Action]`
         >
-        > Where `[Actor]` is the type of user that can perform the action and get the result. Where `[Action]` is the description of the action the Actor(s) take in order to get a result.
-
+        > Where `[Actor]` is the *type of user* (role) that can perform the action and get the result. 
+        > Where `[Action]` is the *description of the action the Actor(s) take in order to get a result*.
+        
+        # :gear: Welcome!
+        This form is filled out to add a new formal Behavior to the project Plan    
   - type: textarea
     id: result
     attributes:
