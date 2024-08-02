@@ -8,10 +8,10 @@ body:
     attributes:
       value: |
         # We are Here to Help.
-        This form can be filled out to have your AppKu™ team...
-        - Triage, investigate, and resolve problems with your digital process (app).
+        Use this form if you're unsure where to turn, or you'd like the AppKu™ team to...
+        - Triage, investigate, and resolve problems within your project, app, database, or automation.
         - Answer questions.
-        - Help create documentation, including designs and concepts.
+        - Start a new collaborative effort or initiative.
         - ...and in general, help out!
 
         *If you are trying to add an :bulb: Idea instead, [click here](./new/choose).*
