@@ -1,7 +1,6 @@
 name: "\U0001F7BB New Idea (Draft)"
 description: "Suggest an idea for this project."
 title: "[Draft]: "
-labels: ""
 assignees: []
 body:
   - type: markdown
