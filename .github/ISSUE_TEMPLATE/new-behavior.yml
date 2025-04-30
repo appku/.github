@@ -58,13 +58,13 @@ body:
     attributes:
       label: "Action: Conditions"
       description: Are there special conditions or considerations for the action to be performed?
-      value: 
+      value: None
   - type: textarea
     id: result
     attributes:
       label: Results
       description: What is the Result of the Actor(s) performing the Action?
-      value: 
+      value:
     validations:
       required: true
   - type: textarea
