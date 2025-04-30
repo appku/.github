@@ -27,7 +27,7 @@ body:
   - type: input
     id: actor
     attributes:
-      label: What type of user(s) will perform the action?
+      label: Actor
       description: What types of users (Administrators, readers, etc.) would be able to perform the actions described?
       value: 
     validations:
@@ -35,7 +35,8 @@ body:
   - type: dropdown
     id: action
     attributes:
-      label: What is the action they will perform?
+      label: Action
+      description: What is the action they will perform?
       options:
         - Activates
         - Clicks
@@ -61,7 +62,6 @@ body:
   - type: input
     id: action-subject
     attributes:
-      label: What is target and description of the action?
       value: 
   - type: textarea
     id: result
