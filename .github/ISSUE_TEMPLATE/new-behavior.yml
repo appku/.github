@@ -47,11 +47,17 @@ body:
         - Unloads
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: action-subject
     attributes:
       label: "Action: Subject"
       description: What are they affecting with the action (directly), and are there conditions?
+      value: 
+  - type: input
+    id: action-conditions
+    attributes:
+      label: "Action: Conditions"
+      description: Are there special conditions or considerations for the action to be performed?
       value: 
   - type: textarea
     id: result
