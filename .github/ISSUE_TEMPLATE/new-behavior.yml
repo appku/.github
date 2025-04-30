@@ -36,7 +36,6 @@ body:
     id: action
     attributes:
       label: What is the action they will perform?
-      description: This is the action the Actor(s) take in order to get a result.
       options:
         - Activates
         - Clicks
@@ -64,7 +63,7 @@ body:
     attributes:
       label: What is target and description of the action?
       value: 
-  - type: textarea
+  - type: markdown
     id: result
     attributes:
       label: What is the Result of the Actor's Action?
