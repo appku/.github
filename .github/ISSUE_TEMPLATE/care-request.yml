@@ -54,17 +54,18 @@ body:
         > 4. A description of what you expected the result to be. 
         > 5. Attach relevant screenshots of the problem (these can be pasted or dragged into the input below when focused).
       value: |
-        - URL: [please enter the url(s) related to your request....]
-        - Browser: [please enter your browser and version (see tip above)...]
+        - URL: 
+        - OS/Browser: 
+        - Version: 
         
         #### I was doing this just before the problem occurred:
-        [please describe...]
+        
 
         #### This is what I expected the result to be:
-        [please describe...]
+       
 
-        #### Relevant Screenshots
-        [please paste/drag/upload...]
+        #### Relevant Screenshots/Files
+        
 
     validations:
       required: true
