@@ -68,9 +68,8 @@ body:
   - type: textarea
     id: result
     attributes:
-      label: What is the Result of the Actor's Action?
-      description: "Describe the Result of the Actor(s) performing the Action:"
-      placeholder: The...
+      label: Results
+      description: What is the Result of the Actor(s) performing the Action?
       value: 
     validations:
       required: true
