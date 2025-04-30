@@ -59,7 +59,7 @@ body:
         - Unloads
     validations:
       required: true
-   - type: input
+  - type: input
     id: action-subject
     attributes:
       label: What is target and description of the action?
