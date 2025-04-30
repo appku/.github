@@ -7,12 +7,7 @@ body:
     attributes:
       value: |
         # :bulb: Welcome!
-        If you're here, you must have ideas to help your team and organization craft a modern, secure, streamlined, and 
-        sustainable digital process (app) within your organization - this questionnaire will help our team with understanding 
-        your idea.
-
-        Together we'll collaborate and make your ideal process come to life - with your rules, your brand, and made for 
-        your team. After all - *AppKu™ means apps made your way™.*
+        This form is filled out to add a new formal idea to the project Plan.
   - type: textarea
     id: idea-description
     attributes:
