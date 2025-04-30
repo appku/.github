@@ -57,14 +57,17 @@ body:
         - URL: 
         - OS/Browser: 
         - Version: 
-        
-        #### I was doing this just before the problem occurred:
-        
 
-        #### This is what I expected the result to be:
+        ### The Problem
+
+        ### The Expectation
+        
+        #### Steps to Reproduce Problem
+        1. 
+        2. 
+        3. 
        
-
-        #### Relevant Screenshots/Files
+        #### Relevant Screenshots & Files
         
 
     validations:
