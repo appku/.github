@@ -24,6 +24,46 @@ body:
         
         # :gear: Welcome!
         This form is filled out to add a new formal Behavior to the project Plan.    
+  - type: input
+    id: actor
+    attributes:
+      label: What type of user(s) will perform the action?
+      description: What types of users (Administrators, readers, etc.) would be able to perform the actions described?
+      value: 
+    validations:
+      required: true
+  - type: dropdown
+    id: action
+    attributes:
+      label: What is the action they will perform?
+      description: This is the action the Actor(s) take in order to get a result.
+      options:
+        - Activates
+        - Clicks
+        - Drags
+        - Drops
+        - Focuses
+        - Gestures
+        - Grabs
+        - Hovers
+        - Loads
+        - Pinches
+        - Presses
+        - Resizes
+        - Scrolls
+        - Swipes
+        - Toggles
+        - Triggers
+        - Types
+        - Unfocuses
+        - Unloads
+    validations:
+      required: true
+   - type: input
+    id: action-subject
+    attributes:
+      label: What is target and description of the action?
+      value: 
   - type: textarea
     id: result
     attributes:
