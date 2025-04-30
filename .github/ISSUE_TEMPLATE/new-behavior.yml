@@ -1,26 +1,14 @@
 name: "⚙ New Behavior"
 description: "Add a new behavior to this project."
-title: "[Actor]: [Action]"
+title: "New Behavior"
 labels: "triage, ⚙ behavior"
 assignees: []
 body:
   - type: markdown
     attributes:
       value: |
-        > [!WARNING]
-        > **We recommend letting the AppKu™ team fill out this form for you.**
-        >
-        > As part of *our service to you*, we'll draft, design, and prepare Behaviors and their definitions.
-        > 
-        > You may be looking to create a new :bulb: Idea instead! [Click here and choose "🞻 New Idea"](./new/choose).*
-        > *or*
-        > Need help with something else? [Click here and choose "♡ Care Request - Help/Support/Questions"](./new/choose).*
-
         > [!IMPORTANT]
-        > The **title** of this issue must follow the format of: `[Actor]: [Action]`
-        >
-        > Where `[Actor]` is the *type of user* (role) that can perform the action and get the result. 
-        > Where `[Action]` is the *description of the action the Actor(s) take in order to get a result*.
+        > The **title** of this issue will be processed by the AppKu AI. You may include a brief title to help guide the AI or leave it as-is.
         
         # :gear: Welcome!
         This form is filled out to add a new formal Behavior to the project Plan.    
