@@ -62,7 +62,7 @@ body:
   - type: textarea
     id: action-subject
     attributes:
-      label: Action: subject
+      label: "Action: Subject"
       description: What are they affecting with the action (directly), and are there conditions?
       value: 
   - type: textarea
