@@ -15,7 +15,7 @@ body:
   - type: input
     id: actor
     attributes:
-      label: Actor
+      label: Actor(s)
       description: What types of users (Administrators, readers, etc.) would be able to perform the actions described?
       value: 
     validations:
