@@ -17,7 +17,7 @@ body:
     attributes:
       label: Actor(s)
       description: What types of users (Administrators, readers, etc.) would be able to perform the actions described?
-      value: 
+      value: User
     validations:
       required: true
   - type: dropdown
