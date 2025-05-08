@@ -50,7 +50,7 @@ body:
         - Staging (AppKu Internal)
   - type: textarea
     attributes:
-      label: Details of your Request
+      label: Details of your request?
       description: |
         Please describe the details of your request.
 
