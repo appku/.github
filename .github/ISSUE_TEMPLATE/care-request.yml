@@ -35,7 +35,7 @@ body:
         - "Another user."
         - "Specific groups of users."
         - "All users."
-      default: 0
+      default: 3
     validations:
       required: true
   - type: dropdown
@@ -62,9 +62,9 @@ body:
         > 4. A description of what you expected the result to be. 
         > 5. Attach relevant screenshots of the problem (these can be pasted or dragged into the input below when focused).
       value: |
-        - URL: 
-        - OS/Browser: 
-        - Version: 
+        - URL: _Unspecified_
+        - OS/Browser: _Unspecified_
+        - App Version: _Unspecified_
 
         ### The Current Situation
 
