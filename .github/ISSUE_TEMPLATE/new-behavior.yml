@@ -28,6 +28,7 @@ body:
       options:
         - Activates
         - Clicks
+        - Deselects
         - Drags
         - Drops
         - Focuses
@@ -39,6 +40,7 @@ body:
         - Presses
         - Resizes
         - Scrolls
+        - Selects
         - Swipes
         - Toggles
         - Triggers
