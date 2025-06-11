@@ -80,12 +80,3 @@ body:
 
     validations:
       required: true
-  - type: input
-    attributes:
-      label: Key Identifiers
-      description: |
-        Please indicate *key identifiers* for any records associated with your request.
-        This could be any relevant *user names*, *product numbers*, *dates*, *seasons*, *related requests*, etc. 
-
-        This information helps your request get resolved quickly! 
-        *If you're unsure, or it's not relevant, just type `N/A`.*
