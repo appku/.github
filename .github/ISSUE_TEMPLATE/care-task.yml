@@ -1,0 +1,39 @@
+name: "♡ Care Task - Basic to-dos and work-efforts."
+description: "Have a question, experiencing a problem, providing feedback, or just unsure where to turn? Let our team try to help."
+title: "Requesting something..."
+labels: "triage, ♡ care"
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!IMPORTANT]
+        > The **title** of this issue will be processed by the AppKu AI. You may include a brief title to help guide the AI or leave it as-is.
+        
+        # :heart: Welcome!
+        This form is filled out to add a new formal :heart: Care task to the project.    
+  - type: dropdown
+    id: environments
+    attributes:
+      label: In which environment(s) do you want this done?
+      description: If you're unsure please skip this selection.
+      multiple: true
+      options:
+        - All
+        - Production ("Live")
+        - Review
+        - Staging (AppKu Internal)
+  - type: textarea
+    attributes:
+      label: Details of your request?
+      description: |
+        Please describe the details of your task. Care tasks should be simplistic and generally of one concern, and not something
+        that could be better described as a behavior.
+      value: |
+        ### The Task to be Completed
+       
+        #### Relevant Samples & Materials
+        
+
+    validations:
+      required: true
