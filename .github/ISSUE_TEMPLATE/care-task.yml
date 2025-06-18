@@ -25,12 +25,13 @@ body:
         - Staging (AppKu Internal)
   - type: textarea
     attributes:
-      label: Details of your request?
+      label: Describe the Task to be Completed?
       description: |
         Please describe the details of your task. Care tasks should be simplistic and generally of one concern, and not something
         that could be better described as a behavior or Care *request*.
       value: |
-        ### The Task to be Completed
+
+        
        
         #### Relevant Samples & Materials
         
