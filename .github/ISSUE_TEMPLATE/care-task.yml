@@ -29,13 +29,7 @@ body:
       description: |
         Please describe the details of your task. Care tasks should be simplistic and generally of one concern, and not something
         that could be better described as a behavior or Care *request*.
-      value: |
-
-        
-       
-        #### Relevant Samples & Materials
-        
-
+      value: 
     validations:
       required: true
   - type: textarea
