@@ -38,3 +38,11 @@ body:
 
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: Any Relevant Samples & Materials?
+      description: |
+        Are there any relevant sample files or materials that are required or relevant to this task?
+      value: 
+    validations:
+      required: true
