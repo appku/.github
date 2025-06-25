@@ -38,4 +38,4 @@ body:
       label: Any Relevant Samples & Materials?
       description: |
         Are there any relevant sample files or materials that are required or relevant to this task?
-      value: 
+      value: _None_
