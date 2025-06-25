@@ -39,5 +39,3 @@ body:
       description: |
         Are there any relevant sample files or materials that are required or relevant to this task?
       value: 
-    validations:
-      required: true
