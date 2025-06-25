@@ -17,6 +17,7 @@ body:
       label: ♡ Care Request Type
       description: What is the nature of the request?
       multiple: false
+      default: 0
       options:
         - Experiencing problems.
         - Need questions answered.
@@ -30,11 +31,12 @@ body:
     attributes:
       label: Who does this affect?
       multiple: false
+      default: 0
       options:
+        - "All users."
         - "Just me."
         - "Another user."
         - "Specific groups of users."
-        - "All users."
       default: 3
     validations:
       required: true
@@ -44,7 +46,9 @@ body:
       label: In which environment(s) are you experiencing the problem?
       description: If you're unsure please skip this selection.
       multiple: true
+      default: 0
       options:
+        - All
         - Production ("Live")
         - Review
         - Staging (AppKu Internal)
