@@ -35,6 +35,7 @@ body:
         - Gestures
         - Grabs
         - Hovers
+        - Installs
         - Loads
         - Pinches
         - Presses
@@ -46,6 +47,7 @@ body:
         - Triggers
         - Types
         - Unfocuses
+        - Uninstalls
         - Unloads
     validations:
       required: true
