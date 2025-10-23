@@ -17,3 +17,11 @@ body:
 
         > [!TIP]
         > Try to avoid using acronyms - we don't know your terminology as well as you do. Including definitions to specialized terms and acronyms is very helpful!
+  - type: textarea
+    id: ask
+    attributes:
+      label: Ask
+      description: What is the ask?
+      value:
+    validations:
+      required: true
