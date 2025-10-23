@@ -1,0 +1,19 @@
+name: "\U0001F7BB New Idea (Draft)"
+description: "Suggest an idea for this project."
+title: "A new idea to power the project, and empower the team..."
+labels: "✎ draft,ask"
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # :bulb: Welcome!
+        This form is filled out to add a new formal ask (idea) to the project Plan.
+  - type: markdown
+    attributes:
+      value: |
+        > [!TIP]
+        > Aim to describe how it *should be*, and how *you would like it to be*.
+
+        > [!TIP]
+        > Try to avoid using acronyms - we don't know your terminology as well as you do. Including definitions to specialized terms and acronyms is very helpful!
