@@ -1,7 +1,7 @@
 name: "♡ Care Task - Request a thing to be done."
 description: "Define a simple task or to-do for the team to complete."
 title: "Requesting something..."
-labels: "triage, ♡ care"
+labels: "triage, ♡ care, p: low"
 assignees: []
 body:
   - type: markdown
