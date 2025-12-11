@@ -45,10 +45,9 @@ body:
     attributes:
       label: In which environment(s) are you experiencing the problem?
       description: If you're unsure please skip this selection.
-      multiple: true
+      multiple: false
       default: 0
       options:
-        - All
         - Production ("Live")
         - Review
         - Staging (AppKu Internal)
@@ -66,10 +65,6 @@ body:
         > 4. A description of what you expected the result to be. 
         > 5. Attach relevant screenshots of the problem (these can be pasted or dragged into the input below when focused).
       value: |
-        - URL: _Unspecified_
-        - OS/Browser: _Unspecified_
-        - App Version: _Unspecified_
-
         ### The Current Situation
 
         ### The Expectation
