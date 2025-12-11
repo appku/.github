@@ -77,3 +77,11 @@ body:
       description: Is there any addition context that should be included about this behavior?
       placeholder: Calculations, samples, considerations, data sources, etc.
       value:
+  - type: textarea
+    id: result
+    attributes:
+      label: Results
+      description: How can this be verified or tested?
+      value:
+    validations:
+      required: true
