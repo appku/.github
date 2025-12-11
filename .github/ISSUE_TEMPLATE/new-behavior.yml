@@ -78,9 +78,9 @@ body:
       placeholder: Calculations, samples, considerations, data sources, etc.
       value:
   - type: textarea
-    id: result
+    id: testing-statement
     attributes:
-      label: Results
+      label: Testing Statement
       description: How can this be verified or tested?
       value:
     validations:
