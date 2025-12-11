@@ -39,3 +39,9 @@ body:
       description: |
         Are there any relevant sample files or materials that are required or relevant to this task?
       value: _None_
+  - type: textarea
+    id: testing-statement
+    attributes:
+      label: Testing Statement
+      description: How can this be verified or tested?
+      value:
