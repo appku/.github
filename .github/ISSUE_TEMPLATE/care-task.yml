@@ -42,6 +42,6 @@ body:
   - type: textarea
     id: testing-statement
     attributes:
-      label: Testing Statement
-      description: How can this be verified or tested?
+      label: How Can This be Verified or Tested?
+      description: Please describe.
       value:
