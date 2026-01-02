@@ -26,9 +26,10 @@ body:
       label: Action
       description: What is the action they will perform?
       options:
-        - Activates
+        - Activates (Click/Enter)
         - Clicks
         - Deselects
+        - Downloads
         - Drags
         - Drops
         - Focuses
@@ -39,6 +40,7 @@ body:
         - Loads
         - Pinches
         - Presses
+        - Receives
         - Resizes
         - Scrolls
         - Selects
@@ -49,6 +51,7 @@ body:
         - Unfocuses
         - Uninstalls
         - Unloads
+        - Uploads
     validations:
       required: true
   - type: input
