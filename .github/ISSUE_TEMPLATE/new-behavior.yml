@@ -80,11 +80,3 @@ body:
       description: Is there any addition context that should be included about this behavior?
       placeholder: Calculations, samples, considerations, data sources, etc.
       value:
-  - type: textarea
-    id: testing-statement
-    attributes:
-      label: How Can This be Verified or Tested?
-      description: Please describe.
-      value:
-    validations:
-      required: true
