@@ -4,10 +4,6 @@ title: "Story: TBD"
 labels: "✎ draft, ☰ story"
 assignees: []
 body:
-  # - type: markdown
-  #   attributes:
-  #     value: |
-        
   - type: textarea
     id: result
     attributes:
@@ -17,6 +13,45 @@ body:
         _What task(s) or decision(s) does it represent? What do they do- in detail?_*<br />
         **Does this product have or affect a frontend user interface?**<br />
         _What are the representing wireframe(s) or doodle(s)?_
-      value:
+      value: |
+         _To be described_
+
+         ## Notable Features & Behaviors
+         - Feature or Behavior 1
+         - Feature or Behavior 2
+         - Feature or Behavior 3
     validations:
       required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Where
+      description: |
+        **Does this product have or affect a background process?***<br />
+        _Which process, or area of the process, is utilized from the BPMN diagram- what functional area or workflow?_<br />
+        **Does this product have or affect a frontend user interface?**<br />
+        _Which location(s) are utilized from the Site Map?_<br />
+      value: |
+         _To be described_
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Who
+      description: |
+         List all automated actors and roles involved, what actions can they take, and any constraints they have with regards to this story.
+      value: |
+         | Name | Action/Subject | Constraints |
+         |-|:-|:-|
+         | Actor 1 | TBD | _None_ |
+         | Actor 2 | TBD | _None_ |
+         | Actor 3 | TBD | _None_ |
+  - type: textarea
+    id: result
+    attributes:
+      label: Why
+      description: |
+         What is the purpose of this product, what value does it provide to the customer?
+      value: |
+         _To be described_
