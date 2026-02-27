@@ -13,9 +13,9 @@ body:
     attributes:
       label: What
       description: |
-        **Does this product have or affect a background process?**
-        _What task(s) or decision(s) does it represent? What do they do- in detail?_
-        **Does this product have or affect a frontend user interface?**
+        **Does this product have or affect a background process?***<br />
+        _What task(s) or decision(s) does it represent? What do they do- in detail?_*<br />
+        **Does this product have or affect a frontend user interface?**<br />
         _What are the representing wireframe(s) or doodle(s)?_
       value:
     validations:
