@@ -5,15 +5,6 @@ labels: "✎ draft, ⚯ ask"
 assignees: []
 body:
   - type: textarea
-    id: ask
-    attributes:
-      label: Ask
-      description: |
-        **_What is the ask?_**
-      value: 
-    validations:
-      required: true
-  - type: textarea
     id: story-changes
     attributes:
       label: Changes to the Story
