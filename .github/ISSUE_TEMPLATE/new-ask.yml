@@ -4,21 +4,16 @@ title: "Ask: TBD"
 labels: "✎ draft, ⚯ ask"
 assignees: []
 body:
+
   - type: textarea
-    id: story-changes
+    id: ask
     attributes:
-      label: Changes to the Story
+      label: Ask
       description: |
-        **_What, Where, Who, & Why?_**
-      value: |
-        ##### Changes to _What_
-        _None_
-        ##### Changes to _Where_
-        _None_
-        ##### Changes to _Who_
-        _None_
-        ##### Changes to _Why_
-        _None_
+        **_What is the ask?_**
+      value: 
+    validations:
+      required: true
  - type: textarea
     id: tasks
     attributes:
