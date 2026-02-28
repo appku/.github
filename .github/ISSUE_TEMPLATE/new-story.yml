@@ -2,6 +2,7 @@ name: "☰ New Story"
 description: "Add a new product story to this project."
 title: "Story: TBD"
 labels: "✎ draft, ☰ story"
+type: "Story"
 assignees: []
 body:
   - type: textarea
@@ -18,7 +19,7 @@ body:
          
          _To be described_
 
-         ## Notable Features & Behaviors
+         #### Notable Features & Behaviors
          - Feature or Behavior 1
          - Feature or Behavior 2
          - Feature or Behavior 3
@@ -46,7 +47,7 @@ body:
       description: |
          List all automated actors and roles involved, what actions can they take, and any constraints they have with regards to this story.
       value: |
-         ##### Who is using the Product?
+         ##### _Who is using the Product?_
          
          | Name | Action/Subject | Constraints |
          |-|:-|:-|
@@ -60,6 +61,6 @@ body:
       description: |
          What is the purpose of this product, what value does it provide to the customer?
       value: |
-         ##### Why is this Product valuable?
+         ##### _Why is this Product valuable?_
          
          _To be described_
