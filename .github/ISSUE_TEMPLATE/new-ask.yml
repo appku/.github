@@ -32,6 +32,3 @@ body:
     id: tasks
     attributes:
       label: Task List
-      description: |
-        **_List the Tasks that would be required._**
-      value: 
