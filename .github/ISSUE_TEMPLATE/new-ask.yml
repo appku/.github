@@ -8,8 +8,6 @@ body:
     id: ask
     attributes:
       label: Ask
-      description: |
-        **_What is the ask?_**
       value:
     validations:
       required: true
@@ -17,8 +15,6 @@ body:
     id: story-changes
     attributes:
       label: Changes to the Story
-      description: |
-        **_What, Where, Who, & Why?_**
       value: |
         ##### Changes to _What_
         _None_
