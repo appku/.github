@@ -1,13 +1,41 @@
 name: "\U0000273C New Ask"
 description: "A plan to improve or enhance a product."
 title: "Ask: TBD"
-labels: "✎ draft,⚯ ask"
+labels: "✎ draft, ⚯ ask"
 assignees: []
 body:
   - type: textarea
     id: ask
     attributes:
       label: Ask
-      value:
+      description: |
+        **_What is the ask?_**
+      value: 
     validations:
       required: true
+  - type: textarea
+    id: story-changes
+    attributes:
+      label: Changes to the Story
+      description: |
+        **_What, Where, Who, & Why?_**
+      value: |
+        ##### Changes to _What_
+        _None_
+        ##### Changes to _Where_
+        _None_
+        ##### Changes to _Who_
+        _None_
+        ##### Changes to _Why_
+        _None_
+ - type: textarea
+    id: tasks
+    attributes:
+      label: Task List
+      description: |
+        **_List the Tasks that would be required._**
+      value: |
+        - TBD ⚡ X
+        - TBD ⚡ X
+        - TBD ⚡ X
+        - TBD ⚡ X
