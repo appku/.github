@@ -1,7 +1,7 @@
 name: "\U0000273C New Ask"
 description: "A plan to improve or enhance a product."
 title: "Ask: TBD"
-labels: "✎ draft, ⚯ ask"
+labels: "✎ draft,⚯ ask"
 assignees: []
 body:
   - type: textarea
@@ -28,8 +28,6 @@ body:
     id: tasks
     attributes:
       label: Task List
-      description: |
-        **_List the Tasks that would be required._**
       value: |
         - TBD ⚡ X
         - TBD ⚡ X
