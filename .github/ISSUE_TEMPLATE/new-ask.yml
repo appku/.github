@@ -28,7 +28,3 @@ body:
         _None_
         ##### Changes to _Why_
         _None_
- - type: textarea
-    id: tasks
-    attributes:
-      label: Task List
