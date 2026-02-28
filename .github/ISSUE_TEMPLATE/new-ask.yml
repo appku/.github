@@ -14,14 +14,19 @@ body:
       value: 
     validations:
       required: true
- - type: textarea
-    id: tasks
+      
+  - type: textarea
+    id: story-changes
     attributes:
-      label: Task List
+      label: Changes to the Story
       description: |
-        **_List the Tasks that would be required._**
+        **_What, Where, Who, & Why?_**
       value: |
-        - TBD ⚡ X
-        - TBD ⚡ X
-        - TBD ⚡ X
-        - TBD ⚡ X
+        ##### Changes to _What_
+        _None_
+        ##### Changes to _Where_
+        _None_
+        ##### Changes to _Who_
+        _None_
+        ##### Changes to _Why_
+        _None_
