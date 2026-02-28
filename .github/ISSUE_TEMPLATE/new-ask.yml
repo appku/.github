@@ -4,7 +4,6 @@ title: "Ask: TBD"
 labels: "✎ draft, ⚯ ask"
 assignees: []
 body:
-
   - type: textarea
     id: ask
     attributes:
@@ -14,7 +13,6 @@ body:
       value: 
     validations:
       required: true
-      
   - type: textarea
     id: story-changes
     attributes:
@@ -30,3 +28,14 @@ body:
         _None_
         ##### Changes to _Why_
         _None_
+ - type: textarea
+    id: tasks
+    attributes:
+      label: Task List
+      description: |
+        **_List the Tasks that would be required._**
+      value: |
+        * TBD ⚡ X
+        * TBD ⚡ X
+        * TBD ⚡ X
+        * TBD ⚡ X
