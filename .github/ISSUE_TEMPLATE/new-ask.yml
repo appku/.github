@@ -28,8 +28,4 @@ body:
     id: tasks
     attributes:
       label: Task List
-      value: |
-        \- TBD ⚡ X
-        \- TBD ⚡ X
-        \- TBD ⚡ X
-        \- TBD ⚡ X
+      value: 
