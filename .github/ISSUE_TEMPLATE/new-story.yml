@@ -5,14 +5,14 @@ labels: "✎ draft, ☰ story"
 assignees: []
 body:
   - type: textarea
-    id: result
+    id: what
     attributes:
       label: What
       description: |
         **Does this product have or affect a background process?***<br />
-        _What task(s) or decision(s) does it represent? What do they do- in detail?_*<br />
+        _What task(s) or decision(s) from the BPMN document does it represent? Describe them and their behaviors in detail._<br />
         **Does this product have or affect a frontend user interface?**<br />
-        _What are the representing wireframe(s) or doodle(s)?_
+        _Include wireframes or doodles, describe all components usable or visible in the Product._
       value: |
          _To be described_
 
@@ -23,7 +23,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: result
+    id: where
     attributes:
       label: Where
       description: |
@@ -36,10 +36,11 @@ body:
     validations:
       required: true
   - type: textarea
-    id: result
+    id: who
     attributes:
       label: Who
       description: |
+         **_Who is using the Product?_**<br />
          List all automated actors and roles involved, what actions can they take, and any constraints they have with regards to this story.
       value: |
          | Name | Action/Subject | Constraints |
@@ -48,7 +49,7 @@ body:
          | Actor 2 | TBD | _None_ |
          | Actor 3 | TBD | _None_ |
   - type: textarea
-    id: result
+    id: why
     attributes:
       label: Why
       description: |
