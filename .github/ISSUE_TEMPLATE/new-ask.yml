@@ -29,7 +29,7 @@ body:
     attributes:
       label: Task List
       value: |
-        - TBD ⚡ X
-        - TBD ⚡ X
-        - TBD ⚡ X
-        - TBD ⚡ X
+        \- TBD ⚡ X
+        \- TBD ⚡ X
+        \- TBD ⚡ X
+        \- TBD ⚡ X
