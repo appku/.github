@@ -34,8 +34,4 @@ body:
       label: Task List
       description: |
         **_List the Tasks that would be required._**
-      value: |
-        * TBD ⚡ X
-        * TBD ⚡ X
-        * TBD ⚡ X
-        * TBD ⚡ X
+      value: 
