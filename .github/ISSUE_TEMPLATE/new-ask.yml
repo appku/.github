@@ -11,21 +11,3 @@ body:
       value:
     validations:
       required: true
-  - type: textarea
-    id: story-changes
-    attributes:
-      label: Changes to the Story
-      value: |
-        ##### Changes to _What_
-        _None_
-        ##### Changes to _Where_
-        _None_
-        ##### Changes to _Who_
-        _None_
-        ##### Changes to _Why_
-        _None_
- - type: textarea
-    id: tasks
-    attributes:
-      label: Task List
-      value: 
