@@ -21,7 +21,7 @@ body:
   - type: textarea
     id: story-changes
     attributes:
-      label: Changes to the Story
+      label: Relevant Materials & Information
       description: |
         **_Any context, samples, links, or references?_**
       value: |
