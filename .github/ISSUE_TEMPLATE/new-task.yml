@@ -1,0 +1,28 @@
+name: "\U00002606 New Task"
+description: "A simple thing to do, technical or otherwise."
+title: "A new task... (fill out, or leave '֎' to AI generate)"
+labels: "triage"
+assignees: []
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: Description
+      description: |
+        **_What is the task?_**
+      value: |
+        _Replace me with details, use a task list (below) if desired..._
+        
+        - [ ] Todo 1
+        - [ ] Todo 2
+        - [ ] Todo 3
+    validations:
+      required: true
+  - type: textarea
+    id: story-changes
+    attributes:
+      label: Changes to the Story
+      description: |
+        **_Any context, samples, links, or references?_**
+      value: |
+        _None_
