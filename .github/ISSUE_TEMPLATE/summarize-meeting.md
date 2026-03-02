@@ -1,8 +1,8 @@
 ---
-name: "⏲ Summarize or Prepare a Meeting"
+name: "⏲ New Meeting Task"
 about: Create a summary or prepare a meeting agenda.
 title: 'Meeting: [m/d/yyyy] - Workshop'
-labels: meeting
+labels: "meeting"
 assignees: ''
 
 ---
