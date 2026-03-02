@@ -1,5 +1,5 @@
 name: "☰ New Story"
-description: "Add a new product story to this project."
+description: "Define a new product."
 title: "Story: TBD"
 labels: "✎ draft, ☰ story"
 type: "Story"
