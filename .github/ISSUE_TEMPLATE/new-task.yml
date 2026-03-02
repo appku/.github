@@ -1,6 +1,6 @@
 name: "\U00002606 New Task"
 description: "A simple thing to do, technical or otherwise."
-title: "A new task... (fill out, or leave '֎' to AI generate)"
+title: "A new task... (fill out, or set to 'generate me')"
 labels: "triage"
 assignees: []
 body:
