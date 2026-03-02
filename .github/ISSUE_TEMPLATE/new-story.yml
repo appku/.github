@@ -1,7 +1,9 @@
 name: "☰ New Story"
 description: "Define a new product."
 title: "Story: [Product Name]"
-labels: "✎ draft, ☰ story"
+labels: 
+  - "✎ draft"
+  - "☰ story"
 type: "Story"
 assignees: []
 body:
