@@ -4,7 +4,6 @@ title: "Ask: [Brief Description]"
 labels: 
   - "✎ draft"
   - "⚯ ask"
-  - "p: low"
 assignees: []
 body:
   - type: textarea
