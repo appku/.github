@@ -3,7 +3,6 @@ description: "A simple thing to do, technical or otherwise."
 title: "[A new task...]"
 labels: 
   - "triage"
-  - "p: low"
 assignees: []
 body:
   - type: textarea
