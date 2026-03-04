@@ -1,7 +1,9 @@
 name: "\U00002606 New Task"
 description: "A simple thing to do, technical or otherwise."
 title: "[A new task...]"
-labels: "triage"
+labels: 
+  - "triage"
+  - "p: low"
 assignees: []
 body:
   - type: textarea
