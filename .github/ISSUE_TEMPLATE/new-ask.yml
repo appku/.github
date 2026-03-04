@@ -1,7 +1,10 @@
 name: "\U000026AF New Ask"
 description: "A plan to improve or enhance a product."
 title: "Ask: [Brief Description]"
-labels: "✎ draft, ⚯ ask"
+labels: 
+  - "✎ draft"
+  - "⚯ ask"
+  - "p: low"
 assignees: []
 body:
   - type: textarea
