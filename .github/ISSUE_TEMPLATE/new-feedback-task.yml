@@ -2,7 +2,7 @@ name: "\U0000203B New Feedback Task"
 description: "Feedback from the team or the customer, including QA."
 title: "[A new feedback task...]"
 labels: 
-  - "triage"
+  - "✎ triage"
   - "※ feedback"
 assignees: []
 body:
