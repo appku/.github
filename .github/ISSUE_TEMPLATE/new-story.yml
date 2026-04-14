@@ -3,6 +3,7 @@ description: "Define a new product."
 title: "Story: [Product Name]"
 labels: 
   - "✎ draft"
+  - "t: project"
   - "☰ story"
 type: "Story"
 assignees: []
