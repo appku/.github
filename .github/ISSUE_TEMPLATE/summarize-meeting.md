@@ -1,7 +1,7 @@
 ---
 name: "⏲ New Meeting Task"
 about: Create a summary or prepare a meeting agenda.
-title: 'Meeting: [m/d/yyyy] - Workshop'
+title: 'Meeting: [date] - Workshop'
 labels: 
   - "t: meeting"
   - "p: medium"
