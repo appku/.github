@@ -1,8 +1,9 @@
-name: "\U0000203B New Feedback Task"
-description: "Feedback from the team or the customer, including QA."
-title: "[A new feedback task...]"
+name: "\U00002661 New Care Feedback Task"
+description: "A ♡ Care ticket related feedback from a customer."
+title: "[A new care feedback task...]"
 labels: 
   - "✎ triage"
+  - "♡ care"
   - "※ feedback"
 assignees: []
 body:
@@ -21,10 +22,16 @@ body:
     validations:
       required: true
   - type: textarea
-    id: materials
+    id: 
     attributes:
       label: Relevant Materials & Information
       description: |
         **_Any context, samples, links, or references?_**
       value: |
         _None_
+  - type: input
+    id: ticket
+    attributes:
+      label: Ticket \# or URL
+    validations:
+      required: false
