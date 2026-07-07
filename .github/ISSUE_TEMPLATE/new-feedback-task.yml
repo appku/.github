@@ -6,6 +6,14 @@ labels:
   - "※ feedback"
 assignees: []
 body:
+  - type: checkboxes
+    id: environments
+    attributes:
+      label: Environments Observed
+      options:
+        - label: `production`
+        - label: `review`
+        - label: `staging`
   - type: textarea
     id: task
     attributes:
