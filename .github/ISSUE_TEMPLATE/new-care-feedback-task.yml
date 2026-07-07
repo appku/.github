@@ -13,6 +13,14 @@ body:
       label: 'Ticket # or URL'
     validations:
       required: true
+  - type: checkboxes
+    id: environments
+    attributes:
+      label: Environments Observed
+      options:
+        - label: `production`
+        - label: `review`
+        - label: `staging`
   - type: textarea
     id: task
     attributes:
