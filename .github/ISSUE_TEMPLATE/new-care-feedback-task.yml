@@ -10,7 +10,7 @@ body:
   - type: input
     id: ticket
     attributes:
-      label: Ticket # or URL
+      label: Ticket ## or URL
     validations:
       required: true
   - type: textarea
