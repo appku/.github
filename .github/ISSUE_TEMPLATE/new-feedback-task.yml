@@ -11,9 +11,9 @@ body:
     attributes:
       label: Environments Observed
       options:
-        - label: '`production`'
-        - label: '`review`'
-        - label: '`staging`'
+        - label: production
+        - label: review
+        - label: staging
   - type: textarea
     id: task
     attributes:
