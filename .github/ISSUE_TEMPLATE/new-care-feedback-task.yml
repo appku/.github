@@ -7,6 +7,12 @@ labels:
   - "※ feedback"
 assignees: []
 body:
+  - type: input
+    id: ticket
+    attributes:
+      label: Ticket # or URL
+    validations:
+      required: true
   - type: textarea
     id: task
     attributes:
@@ -29,9 +35,3 @@ body:
         **_Any context, samples, links, or references?_**
       value: |
         _None_
-  - type: input
-    id: ticket
-    attributes:
-      label: Ticket \# or URL
-    validations:
-      required: false
